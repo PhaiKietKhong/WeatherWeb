@@ -1,0 +1,77 @@
+.container-weather{
+    width: 400px;
+    height: 500px ;
+    background: url('../assets/rain.png');
+    background-size: cover !important ;
+    background-repeat: no-repeat;
+    z-index: 2;
+    border-radius: 15px;
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.5) 1.95px 1.95px 2.6px;
+
+}
+.search{
+    padding: 8px 10px;
+    width: 100%;
+    background: rgb(144, 144, 144);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 1.95px 1.95px 2.6px;
+}
+
+.search input{
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 90%;
+    background-color: transparent;
+
+    transition: 0.3s;
+}
+.search input::placeholder{
+    color: white;
+}
+
+.search .icon{
+    color: rgb(0, 0, 0) !important;
+    cursor: pointer;
+    margin-top: 4px;
+}
+.container-weather img{
+    width: 170px;
+    margin: 10px 0;
+}
+.container-weather h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+
+}
+.container-weather h2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+}
+.status img{
+    width: 30px;
+    height: 30px;
+}
+.humidity{
+    display: flex;
+    gap: 10px;
+}
+.wind{
+    display: flex;
+    gap: 10px;
+}
